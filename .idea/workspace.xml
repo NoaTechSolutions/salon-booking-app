@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916d6f1e-4a94-4e02-87c5-53c681e396b9" name="Changes" comment="Creation CRUD for Salon service">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/controller/SalonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/mapper/SalonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/modal/Salon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/payload/dto/SalonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/payload/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/repository/SalonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/service/SalonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/salon-service/src/main/java/com/noatechsolutions/service/impl/SalonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/controller/SalonCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/dto/SalonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/modal/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/category-service/src/main/java/com/noatechsolutions/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +42,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2w9dkZd0Rd4YyRAqjqeJktL3kNi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,31 +66,44 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/15107/Documents/Proyects/NoaTechSolutions/SalonBookingApp/backend/salon-service/src/main/java/com/noatechsolutions",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/15107/Documents/Proyects/NoaTechSolutions/SalonBookingApp/backend/category-service/src/main/java/com/noatechsolutions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\15107\Documents\Proyects\NoaTechSolutions\SalonBookingApp\backend\category-service\src\main\java\com\noatechsolutions" />
       <recent name="C:\Users\15107\Documents\Proyects\NoaTechSolutions\SalonBookingApp\backend\salon-service\src\main\java\com\noatechsolutions" />
     </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="Application" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SalonServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CategoryServiceApplication">
+    <configuration name="CategoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="category-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.noatechsolutions.CategoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalonServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="salon-service" />
@@ -116,8 +129,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745457866721</updated>
-      <workItem from="1745457867701" duration="13035000" />
+      <workItem from="1745457867701" duration="14074000" />
+      <workItem from="1745478436038" duration="730000" />
+      <workItem from="1745479721584" duration="23000" />
+      <workItem from="1745479752481" duration="250000" />
+      <workItem from="1745480017336" duration="133000" />
+      <workItem from="1745480156697" duration="3010000" />
     </task>
+    <task id="LOCAL-00001" summary="Creation CRUD for Salon service">
+      <option name="closed" value="true" />
+      <created>1745477551184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745477551184</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creation CRUD for Salon service">
+      <option name="closed" value="true" />
+      <created>1745477621597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745477621597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
